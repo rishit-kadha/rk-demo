@@ -5,3 +5,7 @@ I will be using this to learn new tech
 <br>
 Author- Rishit Kadha , USAR
 
+## Local development
+
+open "index.html" in your browser
+
