@@ -1,9 +1,28 @@
 body {
-    background-color: rgb(221, 239, 255);
+    background-color: #cde5ed;
 }
 h1 {
     align-self : self-start ;
-    background-color: antiquewhite;
-    color: rgb(3, 19, 34);
+    background-color: rgb(0, 58, 125);
+    color: rgb(137, 158, 252);
     text-align: center;
+}
+table{
+    background-color: rgb(0, 49, 195);
+    border: 2px solid rgb(57, 93, 201) ;
+}
+thead{
+    background-color: rgb(127, 168, 255);
+    
+}
+tbody{
+    background-color: rgb(174, 192, 252);
+}
+th{
+    text-align: center;
+    border: 2px solid rgb(57, 93, 201) ;
+}
+td{
+    text-align: center;
+    border: 2px solid rgb(57, 93, 201) ;
 }
