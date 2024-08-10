@@ -1,28 +1,115 @@
-body {
-    background-color: #cde5ed;
+body{
+    background-color:#EDF2F4;
+    margin:0;
 }
-h1 {
-    align-self : self-start ;
-    background-color: rgb(0, 58, 125);
-    color: rgb(137, 158, 252);
+.header{
+    background-color: #000000; 
+    overflow: hidden; 
+    top: 0;
+    left: 0;
+    height:60px;
+    z-index: 999;
+    width: 100%;
+    color:#00759C;
+    font-family: "Libre Caslon Text" ;
     text-align: center;
-}
-table{
-    background-color: rgb(0, 49, 195);
-    border: 2px solid rgb(57, 93, 201) ;
-}
-thead{
-    background-color: rgb(127, 168, 255);
+    align-content: center;
+    font-size: 30px;
     
+
 }
-tbody{
-    background-color: rgb(174, 192, 252);
-}
-th{
+/*----Navbar----*/
+#navbar{
+    color :#D9D9D9;
+    background-color : #00759C;
     text-align: center;
-    border: 2px solid rgb(57, 93, 201) ;
+    width:100%;
+    top:60px;
+    height:60px;
+    align-content: center;
+    font-size: large;
+    font-family: "Libre Caslon Text";
+    overflow: hidden;
+
 }
-td{
+#navbar a {
+    color:#D9D9D9;
+    padding:20px;
+    text-decoration: none;
     text-align: center;
-    border: 2px solid rgb(57, 93, 201) ;
+}
+#navbar a:hover{
+    background-color: #000000;
+    color:#D9D9D9;
+}
+/*Login Form*/
+#LoginForm {
+    background-color: #D9D9D9;
+    align-self: center;
+    align-content: start;
+    height: 420px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 40px;
+    width:70%;
+}
+#Student{
+    align-self: left;
+    align-items: center;
+    text-align: center;
+    width:40%;
+    background-color:#00759C;
+    height:60px;
+    border-radius: 40px;
+    float:left;
+    margin-left: 7.5%;
+    margin-right: 2.5%;
+}
+#Staff{
+    align-self: right;
+    align-items: center;
+    text-align: center;
+    width:40%;
+    background-color:#00759C;
+    height:60px;
+    border-radius: 40px;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+}
+#logintext{
+    text-align: center;
+    color:#00759C;
+    font-family: "Libre Caslon Text";
+}
+#Heading{
+    text-align:center;
+    font-family:"Libre Caslon Text";
+}
+#studenttext{
+    color: #D9D9D9;
+    font-family: "Libre Bodoni";
+
+}
+#stafftext{
+    color: #D9D9D9;
+    font-family: "Libre Bodoni";
+}
+/*----Footer----*/
+.Footer{
+    background-color: #000000;
+    height:150px;
+    align-content: center;
+}
+.Footer a{
+    color: #D9D9D9;
+    padding:20px,20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+#footerlinks{
+    margin-top:20px;
+    margin-left: 20px;
+
 }
