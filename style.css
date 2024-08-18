@@ -7,14 +7,14 @@ body{
     flex-direction: column;
 }
 .header{
-    background-color:#000000; 
+    background-color:#CC7722;
     overflow: hidden; 
     top: 0;
     left: 0;
     min-height:60px;
     z-index: 999;
     width: 100%;
-    color : #CC7722;
+    color :#080801;
     font-family: "Libre Caslon Text" ;
     align-items: center;
     align-content: center;
@@ -53,7 +53,7 @@ body{
 /*Login Form*/
 #LoginForm {
     overflow:hidden;
-    background-color: hsl(30, 91%, 83%);
+    background-color: hsl(30, 89%, 85%);
     align-self: center;
     align-content: start;
     min-height:350px;
@@ -76,6 +76,10 @@ body{
     margin-left: 7.5%;
     margin-right: 1%;
 }
+#Student:hover{
+    background-color:  hsl(30, 92%, 75%);
+    color:#CC7722;
+}
 #Staff{
     overflow-x: hidden;
     margin-top: 2%;
@@ -90,6 +94,10 @@ body{
     margin-left: 1%;
     margin-right: 7.5%;
 }
+#Staff:hover{
+    background-color:  hsl(30, 92%, 75%);
+    color:#CC7722;
+}
 #logintext{
     text-align: center;
     color:#CC7722;
@@ -100,18 +108,10 @@ body{
     text-align:center;
     font-family:"Libre Caslon Text";
 }
-#studenttext{
-    color: #D9D9D9;
-    font-family: "Libre Bodoni";
 
-}
-#stafftext{
-    color: #D9D9D9;
-    font-family: "Libre Bodoni";
-}
 /*----Footer----*/
 .Footer {
-    margin-top: 40px;
+    margin-top: 80px;
     bottom: 0;
     left: 0;
     padding: 20px;
