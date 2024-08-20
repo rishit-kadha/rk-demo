@@ -16,10 +16,9 @@ body{
     width: 100%;
     color :#080801;
     font-family: "Libre Caslon Text" ;
-    align-items: center;
-    align-content: center;
     text-align: center;
     font-size: 30px;
+    align-content: center;
     
 
 }
@@ -131,4 +130,5 @@ body{
     padding:2em;
 
 }
+
 
