@@ -11,3 +11,6 @@ open "index.html" in your browser
 <br>
 Currently trying to make a simple website to manage attendance and college affairs
 
+## Currently Working on-
+Learning JavaScript
+
